@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Sinfonier - Dashboard</title>
+  <meta name="author" content="Eric Abouaf" lang="en">
+  <meta name="copyright" content="Copyright 2011 Eric Abouaf">
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/reset-fonts.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/skin.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/inputEx.css">
+
+<link rel="shortcut icon" href="http://sinfonier-project.net/favicon.ico">
+<link rel="icon" href="http://sinfonier-project.net/favicon.ico" sizes="32x32">
+  
+<script src="js/utilities.js"></script>
+
+</head>
+<body>
+<div id="doc3" class="yui-t7">
+   <div id="hd">
+     <div class="logo">
+       <img src="images/logo.png"><span>/sin’fɒnjə/</span>
+     </div>
+		
+     
+   </div>
+   <div id="bd">
+	   <div class="yui-g">
+	     <div class="pagewidth">
+	      <!-- YOUR DATA GOES HERE -->
+	      <div id="signin">
+	<h2>Sign In</h2>
+	
+	<center>
+	
+	<div id="messages">
+  <ul class="error">
+    <li>wrong password</li>
+  </ul>
+</div>
+
+	<form action="/sessions/signin" method="post">
+	  <table>
+	    <tbody>
+		  <tr>
+	      <td>Username</td>
+	      <td><input name="username" class="signin-input" placeholder="username" autofocus="" type="string"></td>
+	    </tr>
+	    <tr>
+	      <td>Password</td>
+	      <td><input name="pass" class="signin-input" placeholder="password" type="password"></td>
+	    </tr>
+	  </tbody></table>
+		<br>
+		<input value="Sign In" type="submit" class="signin-button">
+	</form>
+
+  </center>
+
+  
+
+	
+	
+</div>
+
+	     </div>
+	   </div>
+	</div>
+
+  <div id="ft">
+    <div class="pagewidth">
+      <div class="footer-links"><a href="http://sinfonier-project.net/about/" target="_blank">About Sinfonier</a> | <a href="http://sinfonier-project.net/packages/" target="_blank">Packages</a></div>
+	  <div class="powered"><span>Powered by</span> <img src="images/logo_footer.gif"> </div>
+	</div>
+  </div>
+</div>	
+
+</body></html>

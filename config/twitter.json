@@ -1,0 +1,11 @@
+{
+  "enabled":false,
+  "API": {
+    "consumerKey":"YOUR_CONSUMER_KEY",
+    "consumerSecret" :"YOUR_CONSUMER_SECRET"
+  },
+  "access": {
+    "token": "YOUR_TOKEN",
+    "secret": "YOUR_SECRET"
+  }
+}

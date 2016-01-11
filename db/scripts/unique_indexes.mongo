@@ -1,0 +1,8 @@
+db.users.dropIndex({name:1});
+db.users.ensureIndex({name:1},{unique:true});
+db.users.dropIndex({email:1});
+db.users.ensureIndex({email:1},{unique:true});
+db.modules.dropIndex({name:1});
+db.modules.ensureIndex({name:1},{unique:true});
+db.topologies.dropIndex({name:1});
+db.topologies.ensureIndex({name:1},{unique:true});

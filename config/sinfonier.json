@@ -1,0 +1,48 @@
+{
+  "server": {
+    "port": 8124,
+    "host": "localhost"
+  },
+
+  "sessions": {
+    "key": "some-key",
+    "secret": "S1nf0n13r-Dr4w33r 5EeEecr3t!!"
+  },
+
+  "modules":
+    {
+      "parallelism":2,
+      "maxParallelism":5,
+      "package": "com.sinfonier",
+      "descSize": 500,
+      "topElements":75,
+      "invalidNames":["Storm","BaseSinfonierSpout","BaseSinfonierBolt","BaseSinfonierDrain","New","Edit","Export","Import","RSS","Filter"]
+    },
+  "topologies":
+  {
+    "logSize": 150
+  },
+  "users":
+  {
+    "default_source_type":"Gist"
+  },
+  "email":
+    {
+      "connection":
+      {
+        "host": "SMTP_SERVER",
+        "port": "SMPT_PORT",
+        "ignoreTLS": true,
+        "auth":
+        {
+          "user": "user@domain.tld",
+          "pass": "YOUR_USER_PASS"
+        }
+      },
+      "from":"noreply@domain.tld",
+      "distlist":"userlist@domain.tld"
+    },
+  "rootUrl":"http://localhost:8124/",
+  "default_concurrent_topologies":1,
+  "unblockable":["supersinfonier","ffranz"]
+}

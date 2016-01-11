@@ -1,0 +1,14 @@
+db.users.ensureIndex({name:1},{unique:true});
+db.users.ensureIndex({email:1},{unique:true});
+db.users.ensureIndex({tools:1});
+db.users.ensureIndex({status:1});
+db.invitations.ensureIndex({user_id:1});
+db.modules.ensureIndex({name:1},{unique:true});
+db.modules.ensureIndex({user_id:1});
+db.topologies.ensureIndex({name:1},{unique:true});
+db.topologies.ensureIndex({status:1});
+db.topologies.ensureIndex({user_id:1});
+db.topologies.ensureIndex({status:1});
+db.topologies.ensureIndex({"config.modules.name":1});
+db.versions.ensureIndex({"module_id":1});
+db.notifications.ensureIndex({"email":1});

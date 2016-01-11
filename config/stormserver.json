@@ -1,0 +1,17 @@
+{
+  "url":"http://localhost:8899/",
+  "commands":
+  {
+    "launchTopology": "runtopology",
+    "stopTopology": "stoptopology",
+    "updateTopology": "updatetopology",
+    "loadModule": "loadmodule",
+    "updateModule": "updatemodule",
+    "compileModule": "compilemodule",
+    "getLog": "getlog",
+    "fastGetLog": "fgetlog",
+    "status": "status",
+    "fastStatus":"fstatus"
+  },
+  "launchUrlTest": "http://localhost:8124/storm/launch.json"
+}

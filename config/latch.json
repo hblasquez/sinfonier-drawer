@@ -1,0 +1,6 @@
+{
+  "enabled":true,
+  "name":"YOUR_LATCH_APP_NAME",
+  "id":"YOUR_LATCH_ID",
+  "secret" :"YOUR_LATCH_SECRET"
+}

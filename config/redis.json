@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 6379,
+  "options": {
+    "auto_reconnect": true
+  }
+}

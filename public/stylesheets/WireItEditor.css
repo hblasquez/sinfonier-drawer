@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.yui-skin-sam .yui-layout .yui-layout-hd {
+    background-position: 0 -1300px;
+}
+.yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-hd h2 {
+    color: #000000;
+}
+.yui-skin-sam .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle.active {
+    background-position: 0 -1300px;
+    border-color: #808080;
+    border-left: 0 none #808080;
+    border-right: 0 none #808080;
+    color: #000000;
+}
+.yui-skin-sam .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle {
+    font-size: 13px;
+    height: 13px;
+}
+.yui-skin-sam .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle.active:hover {
+    background-position: 0 -1500px;
+}
+#top {
+    position: relative;
+}
+#top .topright {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+#top .logo {
+    background: url("../../../lib/yui/assets/skins/sam/sprite.png") repeat-x scroll 0 -1300px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #808080;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+#toolbar {
+    height: 23px;
+    position: relative;
+    width: 100%;
+}
+#toolbar .yui-button {
+    margin: 0;
+}
+#toolbar .yui-button button {
+    font-size: 92%;
+    padding-left: 2em;
+}
+#WiringEditor-saveButton button {
+    background: url("database_save.png") no-repeat scroll 10% 50% rgba(0, 0, 0, 0);
+}
+#WiringEditor-deleteButton button {
+    background: url("delete.png") no-repeat scroll 10% 50% rgba(0, 0, 0, 0);
+}
+#WiringEditor-newButton button {
+    background: url("add.png") no-repeat scroll 10% 50% rgba(0, 0, 0, 0);
+}
+#WiringEditor-loadButton button {
+    background: url("application_go.png") no-repeat scroll 10% 50% rgba(0, 0, 0, 0);
+}
+#WiringEditor-helpButton button {
+    background: url("help.png") no-repeat scroll 10% 50% rgba(0, 0, 0, 0);
+}
+div.savedStatus {
+    color: #FFA500;
+    font-size: 27pt;
+    left: 400px;
+    position: absolute;
+}
+#left {
+}
+.WiringEditor-module {
+    background-color: #F6F6F6;
+    border: 1px solid #F1F1F1;
+    cursor: move;
+    font-size: 9pt;
+    margin: 1px;
+    padding: 2px;
+    text-align: left;
+}
+#left .WiringEditor-module:hover {
+    background-color: #DDECFE;
+    border: 1px solid #C3DAF9;
+}
+.WiringEditor-module img {
+    margin-left: 5px;
+}
+.WiringEditor-module span {
+    margin-left: 5px;
+}
+#moduleProxy {
+    opacity: 0.8;
+}
+#center {
+    height: 100%;
+}
+#right #propertiesForm {
+    font-size: 10px;
+}
+#layerMap {
+    width: 100%;
+}
+#layerMap canvas.WireIt-LayerMap {
+    border: 0 none;
+    position: relative;
+    width: 100%;
+}
+#propertiesForm div.inputEx-Group div.inputEx-label {
+    width: 50px;
+}
+#loadPanelBody {
+    max-height: 300px;
+    overflow-y: scroll;
+    text-align: left;
+}
+#loadPanelBody ul {
+    margin-left: 20px;
+}
+#loadPanelBody ul li {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px 10px;
+}
+#loadPanelBody ul li:hover {
+    background-color: #CCCCFF;
+}
+#alertPanelBody {
+    padding: 10px 0;
+}
