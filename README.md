@@ -31,7 +31,7 @@ node app.js
 
 ```sh
     mongo --shell sinfonier db/scripts/indexes.mongo
-    mongo --shell sinfonier db/deploy/seeds.mongo
+    mongo --shell sinfonier deploy/seeds.mongo
 ```
 
 Now you can login using 'supersinfonier' user with 'sinfonier' as password
